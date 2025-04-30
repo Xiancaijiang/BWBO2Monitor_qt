@@ -1,5 +1,6 @@
 # BW-BO2 Monitor Qt Application
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 这是一个基于 Qt 5.14 的桌面应用程序，用于监控和显示蓝牙设备（如 BW-BO2）的生命体征数据。该应用程序支持蓝牙设备的扫描、连接以及数据展示。
 
 ## 功能
