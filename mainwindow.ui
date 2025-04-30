@@ -1,0 +1,57 @@
+<!-- mainwindow.ui -->
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout">
+    <!-- Status Panel -->
+    <widget class="QGroupBox" name="statusGroup">
+     <layout class="QHBoxLayout">
+      <widget class="QLabel" name="bluetoothIcon">
+       <property name="pixmap">
+        <iconset resource="../resources.qrc">
+         <normaloff>:/icons/bluetooth.png</normaloff>:/icons/bluetooth.png</iconset>
+       </property>
+      </widget>
+      <widget class="QLabel" name="statusLabel"/>
+      <widget class="QPushButton" name="btnScan">
+       <property name="icon">
+        <iconset resource="../resources.qrc">
+         <normaloff>:/icons/search.png</normaloff>:/icons/search.png</iconset>
+       </property>
+      </widget>
+     </layout>
+    </widget>
+
+    <!-- Data Dashboard -->
+    <widget class="QGroupBox" name="dataGroup">
+     <layout class="QGridLayout">
+      <widget class="QLabel" name="spo2Label" row="0" column="0">
+       <property name="text">
+        <string>SpO₂</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="spo2Value" row="1" column="0"/>
+      <!-- 其他数据项类似 -->
+     </layout>
+    </widget>
+
+    <!-- Trend Chart -->
+    <widget class="QGroupBox" name="chartGroup">
+     <layout class="QVBoxLayout">
+      <widget class="QWidget" name="trendChartPlaceholder"/>
+     </layout>
+    </widget>
+
+    <!-- Health Alerts -->
+    <widget class="QGroupBox" name="alertGroup">
+     <layout class="QVBoxLayout">
+      <widget class="QLabel" name="alertText"/>
+     </layout>
+    </widget>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

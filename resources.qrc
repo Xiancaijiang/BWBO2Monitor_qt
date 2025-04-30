@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>icons/bluetooth.png</file>
+    <file>icons/search.png</file>
+    <file>icons/alert.png</file>
+  </qresource>
+</RCC>
